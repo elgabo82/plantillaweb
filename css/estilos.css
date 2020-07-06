@@ -81,7 +81,7 @@ h2 {
     border-radius: 10px;
     margin-bottom: 15px;    
     padding: 20px;
-    background: white;
+    background: #3f9ae8;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -96,6 +96,7 @@ h2 {
 
 .project-description {
     font-size: 20px;
+    background-color: #3f9ae8;
 }
 .project strong {
     font-family: 'Fjalla One', sans-serif;
@@ -113,8 +114,8 @@ h2 {
 }
 
 .project-ImageContainer {
-    /*width: 500px;*/
-    max-width: 25%;
+    width: 500px;
+    /*max-width: 25%;*/
 }
 
 .header {
@@ -209,8 +210,11 @@ ul {
 }
 
 .event img {
-    width: 480px;
-    height: 200px;
+    /*width: 480px;*/
+    
+    width: 60%;
+    /*height: 200px;*/
+    height: 50%;
     object-fit: cover;
 }
 
@@ -218,13 +222,15 @@ ul {
     margin: 20px 40px;
     margin-top: -40px;
     background-color: white;
-    position: relative;
+    /*position: relative;*/
+    position: inherit;
     padding: 20px;
     text-align: center;
 }
 
 .event-description {
-    text-align: left;
+    /*text-align: left;*/
+    text-align: center;
 }
 
 .event-url {
@@ -244,9 +250,9 @@ ul {
     justify-content: space-between;
 }
 
-.social {
+/*.social {
     
-}
+}*/
 
 .social-link {
     display: inline-block;
