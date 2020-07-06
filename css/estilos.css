@@ -43,7 +43,7 @@ h2 {
 
 .seccion {
     height: 300px;
-    background-image: url('../images/hero.jpg');
+    background-image: url('../images/it_big.jpg');
     background-color: #1b2127;
     background-size: 500px 300px;
     background-repeat: no-repeat;
@@ -51,6 +51,20 @@ h2 {
     display: flex;
     align-items: center;
 }
+.seccion-posterior {
+    font-family: 'Fjalla One', sans-serif;
+    border: 1px solid gray;
+    border-radius: 10px;
+    margin-bottom: 15px;
+    padding: 20px;
+    background: white;
+    display: flex;
+    font-weight: normal;
+    align-items: center;
+    justify-content: space-between;
+    text-transform: capitalize;
+}
+
 .portfolio {
     background: #fafafa;
     padding: 20px;
@@ -211,4 +225,12 @@ ul {
     padding: 5px 20px;
     text-decoration: none;
     border-radius: 5px;   
+}
+
+.contact {
+    background: #056fff;
+    color: white;
+    height: 150px;
+    display: flex;    
+    align-items: center;
 }
