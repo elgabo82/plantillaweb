@@ -43,14 +43,20 @@ h2 {
 
 .seccion {
     height: 300px;
-    background-image: url('../images/it_big.jpg');
+    /*background-image: url('../images/it_big.jpg');*/
     background-color: #1b2127;
-    background-size: 500px 300px;
-    background-repeat: no-repeat;
+    /*background-size: 500px 300px;*/
+    /*background-repeat: no-repeat;*/    
     background-position-x: right;
     display: flex;
     align-items: center;
+    justify-content: space-between;
 }
+
+.seccion-image {
+    object-fit: cover;
+}
+
 .seccion-posterior {
     font-family: 'Fjalla One', sans-serif;
     border: 1px solid gray;
@@ -62,7 +68,7 @@ h2 {
     font-weight: normal;
     align-items: center;
     justify-content: space-between;
-    text-transform: capitalize;
+    text-transform: initial;
 }
 
 .portfolio {
@@ -184,7 +190,8 @@ ul {
 
 .event-list {
     display: flex;
-    padding: 1.5em;
+    /*padding: 1.5em;*/
+    flex-wrap: wrap;
 }
 
 .event-list-title {
@@ -296,4 +303,15 @@ ul {
 .form-email h3 {
     font-family: 'Source Sans Pro', sans-serif;
     font-size: 18px;
+}
+
+.container {
+    border: 1px solid red;
+    width: 1000px;
+    margin: 0 auto;
+    display: inherit;
+    justify-content: inherit;
+    align-items: inherit;
+    height: inherit;
+    flex-wrap: inherit;
 }

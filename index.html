@@ -8,7 +8,8 @@
     <link rel="stylesheet" href="css/estilos.css"/> 
   </head>
   <body>
-    <header class="header">     
+    <header class="header">
+      <div class="container">
         <figure class="logo">
           <img src="images/GrupoFMO-Nuevo.png" height="50" alt="Logo de https://www.grupofmo.com" />
         </figure>
@@ -25,54 +26,63 @@
             </li>
           </ol>
         </nav>      
+      </div>
     </header>
     <section class="seccion">
-      <h1>
-        Somos un equipo de profesionales,<br/>
-        integradores y desarrolladores de<br/>
-        tecnolog&iacute;a con <strong>pasi&oacute;n</strong> por lo que<br/>
-        sabemos y nos gusta hacer.<br/>        
-      </h1>
-      <!-- <img src="images/hero.jpg" width="500" height="300" alt="imagen principal del sitio"> -->      
-    </section>
+      <div class="container">
+        <h1>
+          Somos un equipo de profesionales,<br/>
+          integradores y desarrolladores de<br/>
+          tecnolog&iacute;a.
+        </h1>
+        <img class="seccion-image" src="images/it_big.jpg" width="500" height="300" alt="imagen principal del sitio">
+      </section>
+      </div>
     <section>
-      <h2 id="seccionpost" class="seccion-posterior">Evolucionamos con la tecnolog&iacute;a y apoyados en el OpenSource.</h2>
+      <div class="container">
+        <h2 id="seccionpost" class="seccion-posterior">Con pasi&oacute;n por lo que sabemos y nos gusta hacer, evolucionamos con la tecnolog&iacute;a apoyados en el OpenSource.</h2>
+      </div>
     </section>
     <section id="portafolio" class="portfolio">
-      <h2>Portafolio (Proyectos Destacados)</h2>
-      <article class="project">
-        <div class="project-details">
-          <h3 class="project-title">Platzi Video</h3>
-          <h6 class="project-course">React Native / React</h6>
-          <p class="project-date"><small><strong>Fecha:</strong> 01/07/2018</small></p>
-          <p class="project-url"><small><strong>Puedes verlo en:</strong> www.platzi.com/native</small></p>
-          <p class="project-description">Platzi Video fue el resultado de 3 meses de trabajo
-            para crear la mejor app para enseñar el funcionamiento de React y React Native.
-            Desde crear un vista-detalle, hasta patrones avanzados de nevegación, este proyecto ha sido el ejemplo de futuros creadores de aplicaciones multiplataforma.
-          </p>
-        </div>
-        <figure class="project-imageContainer">
-          <img class="project-image" width="500" src="images/platzi-video-react-native.png" alt="prouyecto del curso de React Native">
-        </figure>    
-      </article>
-      <article class="project">
-        <div class="project-details">
-          <h3 class="project-title">Platzi Video</h3>
-          <h6 class="project-course">React Native / React</h6>
-          <p class="project-date"><small><strong>Fecha:</strong> 01/07/2018</small></p>
-          <p class="project-url"><small><strong>Puedes verlo en:</strong> www.platzi.com/native</small></p>
-          <p class="project-description">Platzi Video fue el resultado de 3 meses de trabajo
-            para crear la mejor app para enseñar el funcionamiento de React y React Native.
-            Desde crear un vista-detalle, hasta patrones avanzados de nevegación, este proyecto ha sido el ejemplo de futuros creadores de aplicaciones multiplataforma.
-          </p>
-        </div>
-        <figure class="project-image">
-          <img class="project-imageContainer" width="500" src="images/platzi-video-react-native.png" alt="prouyecto del curso de React Native">
-        </figure>             
-      </article>
+      <div class="container">
+        <h2>Portafolio (Proyectos Destacados)</h2>
+        <article class="project">
+          <div class="project-details">
+            <h3 class="project-title">Platzi Video</h3>
+            <h6 class="project-course">React Native / React</h6>
+            <p class="project-date"><small><strong>Fecha:</strong> 01/07/2018</small></p>
+            <p class="project-url"><small><strong>Puedes verlo en:</strong> www.platzi.com/native</small></p>
+            <p class="project-description">Platzi Video fue el resultado de 3 meses de trabajo
+              para crear la mejor app para enseñar el funcionamiento de React y React Native.
+              Desde crear un vista-detalle, hasta patrones avanzados de nevegación, este proyecto ha sido el ejemplo de futuros creadores de aplicaciones multiplataforma.
+            </p>
+          </div>
+          <figure class="project-imageContainer">
+            <img class="project-image" width="500" src="images/platzi-video-react-native.png" alt="prouyecto del curso de React Native">
+          </figure>    
+        </article>
+        <article class="project">
+          <div class="project-details">
+            <h3 class="project-title">Platzi Video</h3>
+            <h6 class="project-course">React Native / React</h6>
+            <p class="project-date"><small><strong>Fecha:</strong> 01/07/2018</small></p>
+            <p class="project-url"><small><strong>Puedes verlo en:</strong> www.platzi.com/native</small></p>
+            <p class="project-description">Platzi Video fue el resultado de 3 meses de trabajo
+              para crear la mejor app para enseñar el funcionamiento de React y React Native.
+              Desde crear un vista-detalle, hasta patrones avanzados de nevegación, este proyecto ha sido el ejemplo de futuros creadores de aplicaciones multiplataforma.
+            </p>
+          </div>
+          <figure class="project-image">
+            <img class="project-imageContainer" width="500" src="images/platzi-video-react-native.png" alt="prouyecto del curso de React Native">
+          </figure>             
+        </article>
+      </div>
     </section>
-    <h2 class="event-list-title">Nuestra Experiencia</h2>
+    <div class="container">
+      <h2 class="event-list-title">Nuestra Experiencia</h2>
+    </div>
     <section id="eventos" class="event-list">
+      <div class="container">
         <article class="event">
           <figure class="event-ImageContainer">
             <img class="event-image" src="images/platzi-conf.jpg" width="500" />
@@ -113,8 +123,9 @@
             <a class="event-url" href="https://www.youtube.com/watch?v=BIS7cWGgJg0" target="_blank">Ver Plática</a>
           </div>
         </article>
+      </div>
     </section>
-    <section id="contacto" class="contact">
+    <section id="contacto" class="contact">      
       <form action="/suscripcion/" class="form-email">
         <h3>¿Tienes una idea? Te ayudamos a desarrollarla.</h3>
         <input type="text" placeholder="D&eacute;janos tu correo" id="email">
