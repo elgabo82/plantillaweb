@@ -113,7 +113,8 @@ h2 {
 }
 
 .project-ImageContainer {
-    width: 500px;
+    /*width: 500px;*/
+    max-width: 25%;
 }
 
 .header {
@@ -306,7 +307,7 @@ ul {
 }
 
 .container {
-    border: 1px solid red;
+    /*border: 1px solid red;*/
     width: 1000px;
     margin: 0 auto;
     display: inherit;
